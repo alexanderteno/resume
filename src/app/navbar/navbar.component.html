@@ -1,0 +1,7 @@
+<div class="app-navbar">
+  <nav class="nav-links">
+    <span *ngFor="let route of routes" class="nav-link">
+      <a routerLink="{{route.route.path}}" routerLinkActive="active">{{route.description}}</a>
+    </span>
+  </nav>
+</div>

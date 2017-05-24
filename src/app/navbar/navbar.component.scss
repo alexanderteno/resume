@@ -1,0 +1,14 @@
+.app-navbar {
+
+  text-align: center;
+
+  .nav-links {
+    .nav-link+.nav-link::before {
+      content: " | ";
+    }
+    a.active {
+      font-weight: bold;
+    }
+  }
+
+}

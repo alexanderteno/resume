@@ -1,0 +1,12 @@
+.app-resume-base {
+
+  text-align: center;
+  font-size: 36px;
+
+  .base-link {
+    margin: 5px;
+  }
+  .base-link+.base-link::before {
+    content: " | ";
+  }
+}

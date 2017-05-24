@@ -1,0 +1,12 @@
+<div class="app-resume-base">
+  <span class="base-links">
+    <span *ngFor="let link of links" class="base-link">
+      <a *ngIf="link.link" href="{{link.link}}">
+        <i class="fa fa-{{link.icon}}"></i>
+      </a>
+      <span *ngIf="link.data">
+        <i class="fa fa-{{link.icon}}" title="{{link.data}}"></i>
+      </span>
+    </span>
+  </span>
+</div>
